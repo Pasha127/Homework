@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    
+}
+.imageContainer{
+    height: 400px;
+    width: 300px;
+    background-image: url(./CuteMarble.png);
+    display: inline-block;
+    position: absolute;
+    top: 30%;    
+    left: 45%;    
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;    
+}
+.overlay{
+    height: 400px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.overlay:hover{
+    background-color: black;
+}
